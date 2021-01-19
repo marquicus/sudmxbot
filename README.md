@@ -1,6 +1,6 @@
 # SUD COVID19 Infobot
 
-Bot informativo para covid19
+Bot informativo para Covid19 para SUD en MX
 
 ### Setup
 
