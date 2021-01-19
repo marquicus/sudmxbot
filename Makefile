@@ -167,5 +167,10 @@ else
 	@scrapy crawl $(spider)
 endif
 
+#: telegram - Long running telegram bot
+telegram:
+	@echo "Long running telegram bot..."
+	@python sudmxbot/msgbots/telegrambot.py
+
 .PHONY: env docs clean
 .DEFAULT_GOAL := check
