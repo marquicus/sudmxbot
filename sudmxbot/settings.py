@@ -71,7 +71,7 @@ DOWNLOADER_MIDDLEWARES = {
 
 # Configure item pipelines
 ITEM_PIPELINES = {
-    "sudmxbot.pipelines.ModelPipeline": 300,
+    "sudmxbot.pipelines.DailyPipeline": 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

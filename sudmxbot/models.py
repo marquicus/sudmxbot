@@ -73,6 +73,7 @@ class Daily(BaseModel):
 
     class Meta:
         db_table = "daily"
+        primary_key = CompositeKey("fecha", )
 
 
 # ----------------------------------------------------------------------------
